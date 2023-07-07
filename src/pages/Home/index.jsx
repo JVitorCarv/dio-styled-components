@@ -2,6 +2,7 @@ import Header from "../../components/Header"
 import banner from "../../assets/banner.png"
 import * as s from "./styles"
 import Button from "../../components/Button"
+import base from "../../basename"
 
 const Home = () => {
     return (
@@ -19,7 +20,7 @@ const Home = () => {
                         Domine as tecnologias utilizadas pelas empresas mais inovadoras do mundo e encare seu novo
                         desafio profissional, evoluindo em comunidade com os melhores experts.
                     </s.TextContent>
-                    <a href="/login">                        
+                    <a href={`${base}/login`}>                        
                         <Button title="Começar agora" variant="secondary" onClick={() => null}/>
                     </a>
                 </div>

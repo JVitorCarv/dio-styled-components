@@ -1,6 +1,7 @@
 import * as s from "./styles"
 import Button from "../Button"
 import dio from '../../assets/dio.png'
+import base from "../../basename"
 
 const Header = () => {
   return (
@@ -18,7 +19,7 @@ const Header = () => {
             </s.Row>
             <s.Row>
                 <s.MenuRight href="#">Home</s.MenuRight>
-                <a href='/login'>
+                <a href={`${base}/login`}>
                     <Button title="Entrar"></Button>
                 </a>
                 <Button title="Cadastrar"></Button>
