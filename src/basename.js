@@ -1,2 +1,2 @@
-const base = "/dio-styled-components"
+const base = ""
 export default base
